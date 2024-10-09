@@ -1,0 +1,6 @@
+Dir  0: dirProva/..
+Dir  1: dirProva/l1c
+Dir  2: dirProva/.
+Dir  3: dirProva/l1a
+Dir  4: dirProva/l1b
+File 5: dirProva/tmp

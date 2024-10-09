@@ -1,0 +1,80 @@
+Esempi di esecuzione del comando find
+StQ 01.11.2016
+-------------------------------------
+
+Directory Content:
+
+quer@fmdstq:/disk1/tmp1/exp$ ls -la
+total 40
+drwxrwxr-x 2 quer quer 4096 Nov 19 13:22 .
+drwxrwxr-x 3 quer quer 4096 Nov 19 13:28 ..
+-rw-r--r-- 1 quer quer   62 Nov 19 13:12 aAa.txt
+-rw-r--r-- 1 quer quer   62 Nov 19 13:12 aAa.x
+-rw-r--r-- 1 quer quer   62 Nov 19 13:22 aa.x
+-rw-r--r-- 1 quer quer   62 Nov 19 13:12 aBcBa.txt
+-rw-r--r-- 1 quer quer   62 Nov 19 13:12 aBcBa.x
+-rw-r--r-- 1 quer quer   62 Nov 19 13:12 a.txt
+-rw-r--r-- 1 quer quer   62 Nov 19 13:12 a.x
+-rw-r--r-- 1 quer quer 1696 Nov 19 13:12 READMEfind.txt
+
+N.B. Il find stampa i nomi con ./nome.ext (cioe' con il path ./)
+
+###
+
+Nome:
+
+find . -name 'a.*'
+find . -name 'a.*' -print
+find . -name 'A.*' -print --> NULLA
+find . -iname 'A.*' -print  --> stessi con a.*
+find . -name 'a*a.*' -print
+
+Espressioni regolari:
+
+find . -name '*' -print --> TUTTO
+find . -regex '*' -print --> NULLA da sostituire con
+find . -regex '.*' -print
+
+find . -regex '\./...' -print --> ./a.x perche \. == ., poi /, e 3 ctr
+
+find . -regex '..\(.\).\1.*' -print --> nomi palindromi di 3 caratteri,
+                                        ma preceduti da 2 ctr .. (./) e seguiti
+                                        da qualunque cosa .*
+
+
+find . -regex '..\(.\)\(.\).\2\1.*' -print --> Nomi palindromi di 5 caratteri
+
+find . -rexex ".*a{2}.*" --> NON funzione
+find . -rexex ".*a\{2\}.*" --> NON funzione neanche
+find . -rexex ".*aa.*" --> OK
+
+find . -size +500c --> Tutti i file di dimensione >= 500 byte
+find . -size -500c --> minori di 500 byte
+
+find . -type f --> Tutti i file regolari
+find . -type l --> Il symbolic link
+
+find . -user quer
+find . -readable
+find . -executable
+
+find . -mindepth 3 -maxdepth 5 -name "*.c"
+   --> prima min/maxdepth dopo il name
+
+###
+
+Stampa il primo match e esce (non stampa senza -print)
+find . -name "*.x" -print -quit
+
+Di tutti i file stampa le prime 2 righe
+find . -name "*.txt" -exec head -n 2 '{}' ';'
+idem
+find . -name "*.txt" -exec head -n 2 \{} \;
+
+Concatena tutti i file di estensione txt nel file a (USO DI REDIREZIONE)
+find . -name "*.txt" -exec cat '{}' >> a ';'
+
+Creare direttorio ./dir e poi copia tutti i file *.txt dentro dir
+find . -name "*.txt" -exec cp -f '{}' ./dir ';'
+
+###

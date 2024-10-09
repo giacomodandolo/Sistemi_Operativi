@@ -1,0 +1,77 @@
+Ricerca tutti i file, a partire dalla directory di lavoro attuale e usando l'opzione -name con nome aBcBa.txt 
+find . -name "aBcBa.txt"
+
+
+Ricerca, utilizzando l'opzione -regex, se la directory di lavoro attuale contiene un file con nome aBcBa.txt
+find . -regex "\./aBcBa.txt"
+
+
+Ricerca tutti i file, a partire dalla directory di lavoro attuale e usando l'opzione -regex con nome aBcBa.txt 
+find . -regex ".*/aBcBa.txt"
+
+
+
+Ricerca tutti i file regolari nella directory di lavoro attuale il cui nome inizia con una A o con una a, seguita da un qualsiasi carattere, seguito da una A o da una a, seguita da un qualsiasi sequenza di caratteri e con estensione .txt
+find . -type f -iname "a?a*.txt"
+find . -type f -regex ".*/[aA].[aA].*\.txt"
+
+
+Ricerca tutti i file regolari a partire dal padre della directory di lavoro attuale il cui nome contiene due a minuscole separate da un carattere, che possono essere eventualmente seguite o precedute da una qualsiasi sequenza di caratteri e con estensione .txt (esempi: aaa.txt, axa.txt, 123axa.txt, axa123.txt, 123axa456.txt)
+find .. -type f -regex ".*a.a.*\.txt"
+
+
+Ricerca tutti i file regolare a partire dalla home directory che non hanno il permesso 777
+find ~ -type f ! -perm 777
+
+
+Ricerca tutti i direttori a partire dalla radice del file system che hanno il permesso 777, e cambia il loro permesso in 755
+find / -type d -perm 777 -exec chmod 755 \{} \;
+
+
+Ricerca tutti i file regolari a partire dalla directory di lavoro attuale il cui nome ha estensione .txt, e li rimuove
+find . -type f -name "*.txt" -exec rm -f \{} \;
+
+
+Ricerca tutti i file regolare che sono vuoti a partire dal direttorio /tmp
+find /tmp -type f -empty
+
+
+Ricerca tutti gli elementi a partire dalla directory di lavoro attuale che hanno nome x.txt o y.txt
+find . -regextype posix-extended -regex ".*/(x|y).txt"
+
+
+Ricerca tutti gli elementi a partire dalla directory /home che appartengono all'utente Stefano e che hanno nome con estensione .txt
+find /home -user Stefano -iname "*.txt"
+
+
+Ricerca tutti gli elementi a partire dalla directory /home che appartengono al gruppo developer
+find /home -group developer
+
+
+Ricerca tutti gli elementi a partire dalla radice del file system, con dimensione maggiore di 50 Megabytes e minore di 100 Megabytes
+find / -size +50M -size -100M
+
+
+Ricerca tutti i file regolari a partire dalla radice del file system il cui nome ha estensione .mp3 e la cui dimensione e' maggiore di 10 Megabytes, e li rimuove
+find / -type f -name "*.mp3" -size +10M -exec rm \{} \;
+
+
+Ricerca tutti i file regolari a partire dalla directory di lavoro attuale che hanno estensione .c o .sh
+find . -type f \( -name "*.c" -o -name "*.sh" \)
+
+
+Ricerca tutti i file regolari a partire dalla directory di lavoro attuale il cui nome finisce con "cache" o "xml" o "html"
+find . -type f \( -name "*cache" -o -name "*xml" -o -name "*html" \) 
+
+
+Ricerca tutti gli elementi nella home directory con una data di modifica piu' recente di 1440 minuti (un giorno)
+find ~ -mmin -1440
+
+
+Ricerca tutti gli elementi nella home directory con una data di modifica piu' recente di un giorno (come comando precedente)
+File in the home directory with a modification date more recent than 1 day (as previos command)
+find ~ -mtime -1
+
+
+Ricerca tutti gli elementi nella home directory con una data di modifica compresa tra 10 e 14 giorni
+find ~ -type f -mtime +10 -mtime -14
