@@ -1,0 +1,21 @@
+#
+# Makefile
+#
+
+target :
+	echo "compiling my applications"
+	gcc -Wall e05p01.c -o e05p01
+	gcc -Wall e05p04_a.c -o e05p04a
+	gcc -Wall e05p04_b.c -o e05p04b
+
+install : target
+	mkdir bin
+	mv e05p01 ./bin
+	mv e05p04a ./bin
+	mv e05p04b ./bin
+
+clean :
+	rm -f *.o
+
+distclean : clean
+	rm -R ./bin
