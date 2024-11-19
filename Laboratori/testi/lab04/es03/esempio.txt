@@ -1,0 +1,5 @@
+ls -laR end
+less esempio.txt end
+mkdir tmpDir end
+cp esempio.txt tmpDir end
+rm -R tmpDir end
