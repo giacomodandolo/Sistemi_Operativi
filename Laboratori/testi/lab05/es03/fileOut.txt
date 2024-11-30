@@ -1,0 +1,6 @@
+Child (C) running: PID = 2710 | FATHER_PID = 2709
+(C) woke up
+(C) woke up
+Father (F) Running: PID = 2709 | CHILD_PID = 2710
+(F) woke up
+(F) woke up
