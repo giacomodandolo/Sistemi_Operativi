@@ -19,7 +19,7 @@ int atomicIncrement (int *var) {
   return (tmp);
 }
 
-Utilizzarla funzione per scrivere le funzioni init, lock e
+Utilizzarla per scrivere le funzioni init, lock e
 unlock da inserire nel prologo e nell'epilogo di una
 sezione critica.
 
@@ -71,7 +71,7 @@ e tipi/funzioni sem_*.
 
 Esercizio 04.
 Ciascun task corrisponde a un thread.
-I thread sono tutti *ciclicli* e vengono
+I thread sono tutti *ciclici* e vengono
 creati e distrutti  una volta sola prima
 del ciclo principale.
 I semafori sono realizzati tramite libreria POSIX

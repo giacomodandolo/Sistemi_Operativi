@@ -1,0 +1,28 @@
+../../lab01/soEx04/es01.c:3:int main(int argc, char **argv) {
+../../lab01/soEx04/es04_b.c:6:int main(int argc, char **argv) {
+../../lab02/es01/dirRecursive.c:41:int main(int argc, char** argv) {
+../../lab02/es03/copyRecursive.c:76:int main(int argc, char** argv) {
+../../lab03/es01/es01_A.c:4:int main() { 
+../../lab03/es01/es01_B.c:4:int main() { 
+../../lab03/es01/es01_C.c:4:int main() { 
+../../lab03/es01/es01_D.c:4:int main() { 
+../../lab03/es02/es02.c:5:int main(int argc, char **argv) {
+../../lab03/es03/es03.c:6:int main() {
+../../lab04/es01/es01.c:5:int main () {
+../../lab04/es02/es02.c:5:int main () {
+../../lab04/es03/es03.c:11:int main(int argc, char** argv) {
+../../lab04/lab04.txt:56:int main () {
+../../lab04/lab04.txt:23:int main () {
+../../lab05/es01/es01A/es01.c:3:int main() {
+../../lab05/es02/es02.c:102:int main(int argc, char **argv) {
+../../lab05/es03/es03.c:38:int main() {
+../../lab05/es04/es04.c:92:int main() {
+../../lab06/es01/es01.c:58:int main() {
+../../lab06/es02/es02.c:44:int main() {
+../../lab07/es01/es01.c:39:int main(int argc, char **argv) {
+../../lab07/es02/es02.c:67:int main(int argc, char **argv) {
+../../lab07/es03/create_files.c:5:int main(int argc, char **argv) {
+../../lab07/es03/es03.c:68:int main(int argc, char **argv) {
+../../lab08/es01/ex2.c:10:main(aaaa)
+../../lab08/es01/ex2.c:7:main()
+../../lab08/es01/ex2.c:4:main(valor)

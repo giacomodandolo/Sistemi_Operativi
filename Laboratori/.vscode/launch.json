@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/giaco/Documents/Università/Sistemi_Operativi/Laboratori/testi/lab03/es03",
-      "program": "c:/Users/giaco/Documents/Università/Sistemi_Operativi/Laboratori/testi/lab03/es03/build/Debug/outDebug",
+      "cwd": "c:/Users/giaco/Documents/Università/Sistemi_Operativi/Laboratori/testi/lab07/es03",
+      "program": "c:/Users/giaco/Documents/Università/Sistemi_Operativi/Laboratori/testi/lab07/es03/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
