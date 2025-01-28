@@ -1,0 +1,23 @@
+	La system call fork permette di duplicare un processo.
+Esso restituisce il pid del processo che viene formato, ed ha
+un valore di ritorno per ogni processo che viene creato. Il 
+processo padre ottiene il pid del figlio, il processo figlio 
+ottiene il valore pid=0 e pid=-1 se l'operazione non ha avuto
+successo.
+	pid_t fork(void);
+
+	La system call execve permette di eseguire un comando di 
+shell definendo un vettore di parametri (v) e un vettore 
+environment (e). Sostituisce il processo chiamante con il codice
+da eseguire da parte dell'exec.
+Viene utilizzato quando è necessario eseguire un comando di 
+shell terminando il processo chiamante.
+La funzione non ritorna se ha avuto successo, mentre ritorna -1
+se fallisce.
+	int execve(char *path, char *argv[], char *env[]);
+	
+	La system call system permette di eseguire una stringa
+su shell. Rispetto a exec, non sostituisce il processo. Viene
+utilizzato quando non si vuole finire un processo, ma solo
+eseguire un comando di shell.
+	int system(char *string);

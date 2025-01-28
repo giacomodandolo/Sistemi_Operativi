@@ -1,0 +1,43 @@
+#!/bin/bash
+
+if [ $# -ne 6 ]
+then
+	echo "Errore"
+	exit
+fi
+
+fileIn=$1
+str1=$2
+str2=$3
+N=$4
+str3=$5
+fileOut=$6
+
+while read line
+do
+	i=0
+	while [ $i -lt $N ]
+	do
+		echo -n "$str3 "
+		let "i=i+1"
+	done
+
+	for word in $line
+	do
+		if [ $word == $str1 ]
+		then
+			echo -n "$str2 "
+		else
+			echo -n "$word "
+		fi
+	done
+	
+	i=0
+	while [ $i -lt $N ]
+	do
+		echo -n "$str3 "
+		let "i=i+1"
+	done
+
+	echo ""
+done < $fileIn > $fileOut

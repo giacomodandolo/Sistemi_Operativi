@@ -1,0 +1,17 @@
+L'uso gerarchico delle risorse è una tecnica di prevenzione della condizione necessaria al deadlock di "Attesa circolare", che permette di imporre un ordinamento totale tra tutte le classi di risorse.
+Funziona nel seguente modo:
+	1) 	impone una relazione di ordinamento totale tra
+		i vari tipi di risorse, associando a ciascuno 
+		di essi un numero intero.
+	2)	forza ogni processo a richiedere le risorse 
+		con un ordine crescente di enumerazione.
+
+Per eseguire l'algoritmo, si usa una funzione F che impone un ordine univoco su tutte le classi di risorse Ri.
+Si supponga che un processo P abbia richiesto una istanza della risorsa Rold in precedenza e faccia richiesta di una istanza Rnew.
+	-	se F(Rnew) > F(Rold), allora la risorsa viene
+		concessa;
+	-	se F(Rnew) <= F(Rold), allora il processo deve
+		rilasciare tutte le risorse di tipo Ri per cui
+		F(Rnew) <= F(Ri) prima di ottenere Rnew.
+
+Tale condizione è sufficiente per evitare l'attesa circolare.
