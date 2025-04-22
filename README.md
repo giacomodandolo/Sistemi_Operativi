@@ -83,45 +83,45 @@
 
 # LABORATORI
 
-[Lab01](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab01) <br/>
-[Lab02](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab02) <br/>
-[Lab03](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab03) <br/>
+[Lab01](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab01) |
+[Lab02](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab02) |
+[Lab03](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab03) |
 [Lab04](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab04) <br/>
-[Lab05](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab05) <br/>
-[Lab06](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab06) <br/>
-[Lab07](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab07) <br/>
+[Lab05](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab05) |
+[Lab06](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab06) |
+[Lab07](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab07) |
 [Lab08](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab08) <br/>
-[Lab09](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab09) <br/>
-[Lab10](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab10) <br/>
+[Lab09](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab09) |
+[Lab10](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab10) |
 [Lab11](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Laboratori/lab11)
 
 # TEMI D'ESAME
 
 ### 2020
-[16 Giugno](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20192020/0616) <br/>
+[16 Giugno](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20192020/0616) |
 [14 Settembre](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20192020/0914)
 
 ### 2021
-[29 Gennaio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20202021/0129) <br/>
-[12 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20202021/0212) <br/>
-[18 Giugno](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20202021/0618) <br/>
+[29 Gennaio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20202021/0129) |
+[12 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20202021/0212) |
+[18 Giugno](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20202021/0618) |
 [07 Settembre](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20202021/0907)
 
 ### 2022
-[28 Gennaio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20212022/0128) <br/>
-[10 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0210) <br/>
-[14 Giugno](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0614) <br/>
+[28 Gennaio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20212022/0128) |
+[10 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0210) |
+[14 Giugno](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0614) |
 [06 Settembre](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0906)
 
 ### 2023
-[03 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0203) <br/>
-[17 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0217) <br/>
-[28 Aprile](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0428) <br/>
-[15 Giugno](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0615) <br/>
+[03 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0203) |
+[17 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0217) |
+[28 Aprile](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0428) |
+[15 Giugno](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0615) |
 [15 Settembre](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20222023/0915)
 
 ### 2024
-[07 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20232024/0207) <br/>
-[27 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20232024/0227) <br/>
+[07 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20232024/0207) |
+[27 Febbraio](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20232024/0227) |
 [20 Giugno](https://github.com/giacomodandolo/Sistemi_Operativi/tree/main/Temi_Esame/AnnoAccademico20232024/0620)
 
